@@ -7,12 +7,12 @@
 ### Testing
 The way we tested this program was by playing several games, ensuring the server could do the following:
 1. Maintain a connection for a complete game
-	To do this, we would set up a game between two players and play until there was a winner.<br>
-	The server was able to successfully keep track of the board and display the proper MOVD commands after every move.
+	- To do this, we would set up a game between two players and play until there was a winner.<br>
+	- The server was able to successfully keep track of the board and display the proper MOVD commands after every move.
 2. Handle Multithreading
--	The server was able to handle numerous games simultaneously, keeping track of the boards in every game
-3. Handle Draws:
--	We tested multiple different draw scenarios
+   	- The server was able to handle numerous games simultaneously, keeping track of the boards in every game
+4. Handle Draws:
+	- We tested multiple different draw scenarios
 
 
 Players reach 9 total moves without a winner (board fills up)
