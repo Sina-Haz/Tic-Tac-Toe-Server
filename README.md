@@ -1,5 +1,5 @@
 
-# Multithreaded TicTacToe
+# Multithreaded Tic Tac Toe
 ### Our Approach:
  - We decided to use a helper method and header file to break down messages received by read to ensure we don’t read in too much or too little data
  - We then put the input string that we received into a function that would convert it into a tic-tac-toe command like the one’s given in the assignment description
